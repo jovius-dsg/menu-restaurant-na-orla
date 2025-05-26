@@ -69,11 +69,13 @@ import naOrlaLogo from '../img/logo-Na-Orla-Site.png'
 import iconeNaOrla from '../img/icone-Na-Orla.png'
 import ifoodLogo from '../img/Ifood-Logo.png'
 import peixeFritoComBatata from '../img/Peixe-Frito-Com-Batata.png'
+import imagmBase from '../img/Base-Imagens-Cardápio.png'
 
 export {
   naOrlaLogo,
   iconeNaOrla,
   ifoodLogo,
+  imagmBase,
   arrozDeCaranguejo,
   bandaDeTambaqui,
   batataFrita,

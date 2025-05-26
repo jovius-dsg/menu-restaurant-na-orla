@@ -183,7 +183,7 @@ export const menuData: MenuSection[] = [
       id: "pf",
       name: "PF",
       category: "Prato Feito",
-      image: images.pf,
+      image: images.imagmBase,
       price: 20.0,
     },
     {
