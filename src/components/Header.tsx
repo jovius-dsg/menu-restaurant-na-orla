@@ -1,4 +1,5 @@
 import React from 'react';
+import * as images from "../data/img.ts";
 
 const Header: React.FC = () => {
   return (
@@ -6,7 +7,7 @@ const Header: React.FC = () => {
       <div className="header-content">
         <div className="logo-container">
           <img
-            src="src\img\logo-Na-Orla-Site.png"
+            src={images.logoNaOrlaSite}
             alt="Na Orla Bar e Restaurante"
             className="logo-image"
           />
