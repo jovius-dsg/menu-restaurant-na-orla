@@ -17,9 +17,8 @@ const Footer: React.FC = () => {
             aria-hidden="true"
             focusable="false"
             data-prefix="fab"
-            data-icon="paypal"
+            data-icon="whatsapp"
             role="img"
-            xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512">
             <path
               fill="currentColor"
@@ -35,7 +34,7 @@ const Footer: React.FC = () => {
             aria-hidden="true"
             focusable="false"
             data-prefix="fab"
-            data-icon="paypal"
+            data-icon="insta"
             role="img"
             viewBox="0 0 448 512">
             <path
