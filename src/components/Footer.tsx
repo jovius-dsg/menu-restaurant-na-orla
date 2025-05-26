@@ -1,4 +1,5 @@
 import React from 'react';
+import * as images from "../data/img.ts";
 
 const Footer: React.FC = () => {
   return (
@@ -45,7 +46,7 @@ const Footer: React.FC = () => {
         </button>
 
         <button type="button" class="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2 mb-2">
-          <img class="w-4 h-4 me-2 -ms-1" src="src\img\Ifood-Logo.png" alt="" />
+          <img class="w-4 h-4 me-2 -ms-1" src={images.ifoodLogo} alt="" />
           <a href="https://www.ifood.com.br/delivery/joao-pessoa-pb/na-orla-manaira/23650114-78cb-4fa2-8442-e357796056b2">Ifood</a>
         </button>
 

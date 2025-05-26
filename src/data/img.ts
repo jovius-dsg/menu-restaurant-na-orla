@@ -67,10 +67,12 @@ import vatapa from '../img/Vatapá.png';
 import acaiFarinhaPeixeFrito from '../img/Açai-com-Farinha-e-Peixe-Frito.png'
 import naOrlaLogo from '../img/logo-Na-Orla-Site.png'
 import iconeNaOrla from '../img/icone-Na-Orla.png'
+import ifoodLogo from '../img/Ifood-Logo.png'
 
 export {
   naOrlaLogo,
   iconeNaOrla,
+  ifoodLogo,
   arrozDeCaranguejo,
   bandaDeTambaqui,
   batataFrita,
