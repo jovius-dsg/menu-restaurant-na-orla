@@ -129,10 +129,11 @@ img {
   background-color: var(--color-background);
   border: 1px solid var(--color-primary);
   color: var(--color-primary);
-  padding: var(--spacing-2) var(--spacing-3);
+  padding: var(--spacing-2) var(--spacing-2);
   border-radius: var(--border-radius-pill);
   font-size: 0.9rem;
   transition: all var(--transition-fast);
+  text-align: center;
 }
 
 .menu-item-category {

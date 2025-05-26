@@ -6,40 +6,51 @@ interface MenuItemProps {
 }
 
 const MenuItem: React.FC<MenuItemProps> = ({ item }) => {
-  const { 
-    name, 
-    image, 
-    price, 
-    priceType, 
-    description, 
+  const {
+    name,
+    image,
+    price,
+    priceType,
+    description,
     servingInfo,
-    category 
+    category
   } = item;
 
   const formatPrice = (price: number) => {
     return `R$${price.toFixed(2).replace('.', ',')}`;
   };
 
+  const capitalizeWords = (text: string) => {
+    return text
+      .toLowerCase()
+      .split(' ')
+      .map(word => {
+        if (word.length === 0) return '';
+        return word[0].toUpperCase() + word.slice(1);
+      })
+      .join(' ');
+  };
+
   return (
     <div className="menu-item">
       <div className="menu-item-image-container">
-        <img 
-          src={image} 
-          alt={name} 
-          className="menu-item-image" 
+        <img
+          src={image}
+          alt={name}
+          className="menu-item-image"
         />
         <div className="category-tag menu-item-category">
-          {category}
+          {capitalizeWords(name)}
         </div>
       </div>
-      
+
       <div className="menu-item-details">
         {priceType && (
           <div className="price-type">
             {priceType} {formatPrice(price)}
           </div>
         )}
-        
+
         {!priceType && (
           <div className="price">
             {formatPrice(price)}
@@ -51,13 +62,13 @@ const MenuItem: React.FC<MenuItemProps> = ({ item }) => {
             {servingInfo}
           </div>
         )}
-        
+
         {description && (
           <div className="item-description">
             {description}
           </div>
         )}
-        
+
         {item.sides && (
           <div className="item-sides">
             {item.sides}

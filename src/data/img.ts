@@ -47,6 +47,24 @@ import vikWineryLeaoRedBlend from '../img/Vik-Winery-Leão-Red-Blend.png';
 import vodkaNacional from '../img/Vodka-Nascional.png';
 import whiskyChivasRegal from '../img/Whisky-Chivas-Regal.png';
 import zuccardiSerieA from '../img/zuccardi-serie-a-malbec.png';
+import acai from '../img/Açai.png';
+import biscoitoComCastanha from '../img/Biscoito-com-Castanha.png';
+import biscoitoComGeleiaDeCupuaçu from '../img/Biscoito-com-Geleia-de-Cupuaçu.png';
+import boloDeMacaxeira from '../img/Bolo-de-Macaxeira.png';
+import camaraoEmpanado from '../img/Camarrão-Empanado.png';
+import carneDeSolMacaxeiraEFeijaoVerde from '../img/Carne-de-Sol-Macaxeira-e-Feijão-Verde.png';
+import caruru from '../img/Caruru.png';
+import cozidao from '../img/Cozidão.png';
+import frangoNoTucupi from '../img/Frango-no-Tucupi.png';
+import geleiaDeCupuaçu from '../img/Geleia-de-Cupuaçu.png';
+import omelete from '../img/Omelete.png';
+import ovoRecheado from '../img/Ovo-Recheado.png';
+import rubacao from '../img/Rubacão.png';
+import sucoDeAcai from '../img/Suco-de-Açai.png';
+import sucoDeCupuaçu from '../img/Suco-de-Cupuaçu.png';
+import unhaDeCaranguejo from '../img/Unha-de-Carangueijo.png';
+import vatapa from '../img/Vatapá.png';
+import acaiFarinhaPeixeFrito from '../img/Açai-com-Farinha-e-Peixe-Frito.png'
 
 export {
   arrozDeCaranguejo,
@@ -97,5 +115,23 @@ export {
   vikWineryLeaoRedBlend,
   vodkaNacional,
   whiskyChivasRegal,
-  zuccardiSerieA
+  zuccardiSerieA,
+  acai,
+  biscoitoComCastanha,
+  biscoitoComGeleiaDeCupuaçu,
+  boloDeMacaxeira,
+  camaraoEmpanado,
+  carneDeSolMacaxeiraEFeijaoVerde,
+  caruru,
+  cozidao,
+  frangoNoTucupi,
+  geleiaDeCupuaçu,
+  omelete,
+  ovoRecheado,
+  rubacao,
+  sucoDeAcai,
+  sucoDeCupuaçu,
+  unhaDeCaranguejo,
+  vatapa,
+  acaiFarinhaPeixeFrito
 };
