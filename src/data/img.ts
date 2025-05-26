@@ -66,9 +66,11 @@ import unhaDeCaranguejo from '../img/Unha-de-Carangueijo.png';
 import vatapa from '../img/Vatapá.png';
 import acaiFarinhaPeixeFrito from '../img/Açai-com-Farinha-e-Peixe-Frito.png'
 import naOrlaLogo from '../img/logo-Na-Orla-Site.png'
+import iconeNaOrla from '../img/icone-Na-Orla.png'
 
 export {
   naOrlaLogo,
+  iconeNaOrla,
   arrozDeCaranguejo,
   bandaDeTambaqui,
   batataFrita,
