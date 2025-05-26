@@ -68,6 +68,7 @@ import acaiFarinhaPeixeFrito from '../img/Açai-com-Farinha-e-Peixe-Frito.png'
 import naOrlaLogo from '../img/logo-Na-Orla-Site.png'
 import iconeNaOrla from '../img/icone-Na-Orla.png'
 import ifoodLogo from '../img/Ifood-Logo.png'
+import peixeFritoComBatata from '../img/Peixe-Frito-Com-Batata.png'
 
 export {
   naOrlaLogo,
@@ -139,5 +140,6 @@ export {
   sucoDeCupuaçu,
   unhaDeCaranguejo,
   vatapa,
-  acaiFarinhaPeixeFrito
+  acaiFarinhaPeixeFrito,
+  peixeFritoComBatata
 };
