@@ -70,6 +70,7 @@ import iconeNaOrla from '../img/icone-Na-Orla.png'
 import ifoodLogo from '../img/Ifood-Logo.png'
 import peixeFritoComBatata from '../img/Peixe-Frito-Com-Batata.png'
 import imagmBase from '../img/Base-Imagens-Cardápio.png'
+import pf from '../img/PF.png'
 
 export {
   naOrlaLogo,
@@ -79,6 +80,7 @@ export {
   arrozDeCaranguejo,
   bandaDeTambaqui,
   batataFrita,
+  pf,
   caldeiradaDeTambaqui,
   caranguejo,
   chapaMista,
