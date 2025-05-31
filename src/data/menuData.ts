@@ -74,7 +74,7 @@ export const menuData: MenuSection[] = [
         category: "Self Service Sem Balança",
         image: images.selfServiceSemBalanca,
         price: 38.0,
-        priceType: "POR PESSOA",
+        servingInfo: "POR PESSOA",
         sides: "",
       },
       {
